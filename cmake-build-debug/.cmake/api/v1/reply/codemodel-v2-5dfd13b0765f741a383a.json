@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/CS205/cmake-build-debug",
-		"source" : "D:/CS205"
+		"build" : "D:/CS205/CS205_8Puzzle/cmake-build-debug",
+		"source" : "D:/CS205/CS205_8Puzzle"
 	},
 	"version" : 
 	{
