@@ -4,6 +4,8 @@
 #include <vector>
 #include <cmath>
 #include <unordered_map>
+#include <chrono>
+#include <iomanip>
 
 using namespace std;
 
@@ -401,8 +403,26 @@ int main()
     cin >> method;
     cout << endl;
 
+    auto start = chrono::high_resolution_clock::now(); // Start timer
+
     // call the general search algorithm to solve the puzzle
-    generalSearch(init, method);
+    generalSearch(init, method - 1);
+
+    auto end = chrono::high_resolution_clock::now(); // End timer
+    auto durationMillis = chrono::duration_cast<chrono::milliseconds>(end - start);
+    double timeTaken = durationMillis.count();
+
+    cout << std::fixed << std::setprecision(2); // Set precision for output
+
+    if (timeTaken < 1000) // If time taken is less than 1000 milliseconds
+    {
+        cout << "Time taken by search algorithm: " << timeTaken << " milliseconds" << endl;
+    }
+    else
+    {
+        double durationSec = timeTaken / 1000.0; // Convert to seconds
+        cout << "Time taken by search algorithm: " << durationSec << " seconds" << endl;
+    }
 
     return 0;
 }
