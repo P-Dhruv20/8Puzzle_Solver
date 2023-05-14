@@ -184,4 +184,20 @@ CMakeFiles/CS205.dir/main.cpp.obj: D:\CS205\CS205_8Puzzle\main.cpp \
  C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h \
  C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/node_handle.h \
  C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unordered_map.h \
- C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/parse_numbers.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iomanip \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/locale \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.tcc \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_conv.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_ptr.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/quoted_string.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/sstream \
+ C:/PROGRA~1/JETBRA~1/CLION2~2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc
