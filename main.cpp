@@ -5,7 +5,6 @@
 #include <cmath>
 #include <unordered_map>
 #include <chrono>
-#include <iomanip>
 
 using namespace std;
 
@@ -99,13 +98,14 @@ int calculate_ManhattanDistance(Node *node)
         {
             pair<int, int> curr(i, j);
             //
-            if (find_coordinates(node, node->getState()[i][j]) == curr)
+            pair<int, int> temp = find_coordinates(node, node->getState()[i][j]);
+            if (temp == curr)
                 distance += 0;
             else
             {
                 // add the manhattan distance of the current value to the total distance of the node
-                distance += abs(find_coordinates(node, node->getState()[i][j]).first - i) +
-                            abs(find_coordinates(node, node->getState()[i][j]).second - j);
+                distance += abs(temp.first - i) +
+                            abs(temp.second - j);
             }
         }
     }
@@ -387,7 +387,7 @@ int main()
     }
     else
     {
-        // Default puzzle
+        // Default puzzle is depth 20
         row1 = {7, 1, 2};
         row2 = {4, 8, 5};
         row3 = {6, 3, 0};
@@ -412,17 +412,7 @@ int main()
     auto durationMillis = chrono::duration_cast<chrono::milliseconds>(end - start);
     double timeTaken = durationMillis.count();
 
-    cout << std::fixed << std::setprecision(2); // Set precision for output
-
-    if (timeTaken < 1000) // If time taken is less than 1000 milliseconds
-    {
-        cout << "Time taken by search algorithm: " << timeTaken << " milliseconds" << endl;
-    }
-    else
-    {
-        double durationSec = timeTaken / 1000.0; // Convert to seconds
-        cout << "Time taken by search algorithm: " << durationSec << " seconds" << endl;
-    }
+    cout << "Time taken by search algorithm: " << timeTaken << " milliseconds" << endl;
 
     return 0;
 }
